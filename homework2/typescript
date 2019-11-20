@@ -1,0 +1,133 @@
+Script started on 2018-05-08 09:46:46-0700
+bash-4.4$ g++ homework2.cpp [K
+bash-4.4$ a.out
+Which data structure to test (1-Vector, 2-List): 1
+How many times to test Vector: 10
+Test #: 1
+1 3 11 19 25 30 32 38 45 48 55 58 62 70 75 78 79 88 95 98 107 116 124 128 134 142 144 146 151 153 162 168 
+Please enter number to search for: 1
+Index position: 0
+Cost: 5
+--------------------
+Test #: 2
+3 12 13 22 28 31 32 38 47 56 57 63 66 75 81 86 91 94 97 104 113 116 120 129 138 139 143 152 161 165 166 168 
+Please enter number to search for: 104
+Index position: 19
+Cost: 3
+--------------------
+Test #: 3
+2 5 12 17 26 29 38 44 47 54 55 58 62 67 72 81 82 83 90 96 105 113 121 122 127 135 139 140 144 146 154 159 
+Please enter number to search for: 127
+Index position: 24
+Cost: 5
+--------------------
+Test #: 4
+4 12 16 18 24 32 33 40 46 47 55 64 68 71 77 83 90 99 104 106 109 111 114 116 125 132 136 141 146 152 154 161 
+Please enter number to search for: 136
+Index position: 26
+Cost: 5
+--------------------
+Test #: 5
+3 6 14 20 21 27 32 35 43 52 53 60 66 75 77 86 87 96 103 104 106 115 124 126 131 135 140 148 155 158 163 170 
+Please enter number to search for: 170
+Index position: 31
+Cost: 6
+--------------------
+Test #: 6
+3 5 6 14 21 27 33 36 42 48 49 57 58 66 71 77 82 86 91 99 108 115 118 119 124 126 135 144 151 155 162 171 
+Please enter number to search for: 153
+Index position: -1
+Cost: 5
+--------------------
+Test #: 7
+6 14 21 29 38 44 51 54 55 57 61 69 74 78 81 86 91 94 96 100 101 108 113 118 127 134 137 140 145 150 152 161 
+Please enter number to search for: 160
+Index position: -1
+Cost: 6
+--------------------
+Test #: 8
+3 5 10 19 23 27 33 36 41 42 50 54 57 62 66 73 76 78 81 89 95 100 108 114 120 125 132 136 143 148 154 161 
+Please enter number to search for: 4
+Index position: -1
+Cost: 5
+--------------------
+Test #: 9
+3 5 13 14 22 27 30 36 41 43 51 57 64 70 74 81 90 98 101 103 109 112 113 115 124 125 131 134 138 141 146 150 
+Please enter number to search for: 52
+Index position: -1
+Cost: 5
+--------------------
+Test #: 10
+5 12 18 26 27 34 36 44 51 59 66 70 71 74 77 79 85 93 94 100 103 105 109 114 116 120 127 135 140 149 154 163 
+Please enter number to search for: 99
+Index position: -1
+Cost: 5
+--------------------
+
+bash-4.4$ a.out
+Which data structure to test (1-Vector, 2-List): 2
+How many times to test List: 10
+Test #: 1
+3 6 14 21 29 38 39 43 45 53 61 64 66 67 68 72 75 77 82 86 94 100 101 102 111 112 113 122 131 139 144 146 
+Please enter number to search for: 38
+Index position: 5
+Cost: 5
+--------------------
+Test #: 2
+4 5 8 9 14 22 30 35 43 50 59 67 70 78 81 83 91 96 102 103 111 118 120 126 129 135 137 145 153 154 163 166 
+Please enter number to search for: 102
+Index position: 18
+Cost: 18
+--------------------
+Test #: 3
+6 9 15 21 24 26 35 39 42 46 50 55 60 64 70 79 88 93 97 101 109 117 122 128 136 141 143 147 152 158 159 167 
+Please enter number to search for: 141
+Index position: 25
+Cost: 25
+--------------------
+Test #: 4
+7 16 19 27 36 40 41 45 54 59 68 76 85 89 91 92 101 102 104 107 111 112 118 122 131 136 143 148 156 157 164 169 
+Please enter number to search for: 143
+Index position: 26
+Cost: 26
+--------------------
+Test #: 5
+2 4 11 17 20 23 32 41 43 45 46 50 51 52 60 66 68 76 79 82 91 99 105 109 110 115 118 125 133 134 135 144 
+Please enter number to search for: 134
+Index position: 29
+Cost: 29
+--------------------
+Test #: 6
+9 16 25 30 36 37 43 52 61 62 69 73 77 85 93 96 104 107 115 122 123 126 128 131 140 144 145 149 150 151 153 160 
+Please enter number to search for: 161
+Index position: -1
+Cost: 129
+--------------------
+Test #: 7
+6 7 11 16 21 27 36 39 48 51 56 60 64 69 74 75 83 86 87 89 92 101 105 110 111 116 120 126 129 131 135 143 
+Please enter number to search for: 8
+Index position: -1
+Cost: 29
+--------------------
+Test #: 8
+8 12 13 15 22 28 33 40 43 49 53 57 61 68 70 74 76 77 85 86 95 104 113 119 120 121 126 131 133 138 144 145 
+Please enter number to search for: 52
+Index position: -1
+Cost: 53
+--------------------
+Test #: 9
+6 11 19 28 29 31 32 34 35 39 46 52 53 58 59 66 67 74 77 85 90 91 99 103 110 116 124 129 138 145 153 157 
+Please enter number to search for: 98
+Index position: -1
+Cost: 103
+--------------------
+Test #: 10
+6 13 22 23 27 31 32 41 49 57 64 67 73 81 83 89 92 96 105 106 110 113 114 120 127 134 138 144 149 158 163 164 
+Please enter number to search for: 137
+Index position: -1
+Cost: 119
+--------------------
+
+bash-4.4$ exit
+
+Script done on 2018-05-08 09:48:20-0700

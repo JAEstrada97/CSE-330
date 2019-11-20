@@ -1,0 +1,20 @@
+Script started on 2018-04-24 09:44:30-0700
+bash-4.4$ g++ VectorHw1Main.cpp 
+bash-4.4$ a.out
+Original Vector: 1 2 3 4 5 6 7 8 9 10 
+
+1: Erase the element at the highest index:
+1 2 3 4 5 6 7 8 9 
+
+2: Erase the element at index 3:
+1 2 3 5 6 7 8 9 
+
+3: Insert integer 777 at position 10:
+1 2 3 4 5 6 7 8 9 10 777 
+
+4: Insert integer 777 at position 5:
+1 2 3 4 5 777 6 7 8 9 10 777 
+
+bash-4.4$ exit
+
+Script done on 2018-04-24 09:44:49-0700

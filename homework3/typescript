@@ -1,0 +1,99 @@
+Script started on 2018-05-24 08:56:11-0700
+bash-4.4$ g++ hw3.cpp 
+bash-4.4$ a.out
+Integer: 12
+
+Integer: 21
+
+Integer: 36
+
+Integer: 63
+
+Integer: 52
+
+Integer: 25
+
+Integer: 74
+
+Integer: 47
+
+Integer: 92
+
+Integer: 29
+
+
+Values entered
+12
+21
+25
+29
+36
+47
+52
+63
+74
+92
+
+12
+..21
+....36
+......25
+........29
+......63
+........52
+..........47
+........74
+..........92
+
+
+And with iterators...
+12
+21
+25
+29
+36
+47
+52
+63
+74
+92
+
+
+Now doing some removals...
+Remove? 21
+
+Remove? 52
+
+Remove? 92
+
+
+12
+25
+29
+36
+47
+63
+74
+
+12
+..36
+....25
+......29
+....63
+......47
+......74
+
+
+And with iterators...
+12
+25
+29
+36
+47
+63
+74
+
+
+bash-4.4$ exit
+
+Script done on 2018-05-24 08:56:49-0700
